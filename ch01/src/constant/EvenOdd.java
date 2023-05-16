@@ -16,7 +16,7 @@ public class EvenOdd {
 			
 			//String result = (num % 2 == 0) ? "짝수입니다." : "홀수입니다.";
 			
-			String result = "";
+			String result = ""; 
 			if(num % 2 ==0) {
 				result = "짝수입니다.";
 			}
