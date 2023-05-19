@@ -11,5 +11,32 @@ public class Account {
 		this.owner = owner;
 		this.balance = balance;
 	}
+	
+	//get() 메서드 : get + 멤버변수이름()
+	public String getAno() {
+		return ano;
+	}
+	
+	//set() 메서드 : set + 멤버변수이름()
+	public void setAno(String ano) {
+		this.ano = ano;
+	}
+	
+	public String getOwner() {
+		return owner;
+	}
+	
+	public void setOwner(String owner) {
+		this.owner = owner;
+	}
+	
+	public int getBalance() {
+		return balance;
+	}
+	
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
 
 }
