@@ -17,10 +17,10 @@ public class TwoDimension3 {
 		for(int i=0; i<alphabets.length; i++) {
 			for(int j=0; j<alphabets[i].length; j++) {
 				System.out.print(alphabets[i][j] + " ");
+			}
 			System.out.println();
-		}
 
-	}
+		}
 	}
 }
 

@@ -21,11 +21,11 @@ public class BookMain {
 		
 		
 		//향상된 for
-		for(Book book : library) {
+		for(Book book : library) { //파이썬에서 for i in book ~비슷한느낌
 			if(book != null)
 			book.bookInfo();
 		}
-
+		
 	}
 
 }
