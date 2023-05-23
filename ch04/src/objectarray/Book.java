@@ -4,15 +4,15 @@ public class Book {
 	String bookName;
 	String author;
 	
-	Book(){}  //기본 생성자
+	public Book(){}  //기본 생성자
 	
 	//생성자
-	Book(String bookName, String author) {
+	public Book(String bookName, String author) {
 		this.bookName = bookName;
 		this.author = author;
 	}
 	
-	void bookInfo() {
+	public void bookInfo() {
 		System.out.println(bookName + ", " + author);
 	}
 	
