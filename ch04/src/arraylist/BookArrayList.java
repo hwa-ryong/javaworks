@@ -6,12 +6,12 @@ import objectarray.Book;
 public class BookArrayList {
 
 	public static void main(String[] args) {
-		//책을 저장할 ArrayList의 공간 생성
+		// 책을 저장할 ArrayList의 공간 생성
 		ArrayList<Book> bookList = new ArrayList<>();
 		
-		//책 객체 생성해서
+		// 책 객체 생성해서 
 		Book book1 = new Book("반응형 웹사이트", "김은아");
-		Book book2 = new Book("Tiny Python Project", "켄-유엔스-클락");
+		Book book2 = new Book("Tiny Python Project", "켄 유엔스-클락");
 		Book book3 = new Book("혼자 공부하는 자바", "신용권");
 		
 		//bookList에 저장
@@ -24,7 +24,7 @@ public class BookArrayList {
 		//book2.bookInfo();
 		
 		//book1의 정보(인덱싱) - 1개 가져오기
-		System.out.println(bookList.get(0)); // 객체의 메모리 주소
+		System.out.println(bookList.get(0)); //객체의 메모리 주소
 		bookList.get(0).bookInfo(); //객체의 정보
 		
 		//bookList의 크기
@@ -35,17 +35,16 @@ public class BookArrayList {
 			Book book = bookList.get(i);
 			book.bookInfo();
 		}
-		System.out.println("**********************");
+		System.out.println("************************");
 		
 		//book2 삭제
-		if(bookList.contains(book2)) {
+		if(bookList.contains(book2)) { //book2가 있으면
 			bookList.remove(book2);
 		}
 		
-		//향상 for
+		//향상 for문 - for(자료형 변수 : 리스트이름){}
 		for(Book book : bookList)
 			book.bookInfo();
-		
-	}	
+	}
 
 }

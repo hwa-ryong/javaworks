@@ -1,13 +1,13 @@
 package enums;
 
-enum Level {
+enum Level{ //열거형 상수
 	LOW,
 	MEDIUM,
 	HIGH
 }
 
 public class EnumLevel {
-	
+
 	public static void main(String[] args) {
 		Level level = Level.HIGH;
 		
@@ -18,4 +18,5 @@ public class EnumLevel {
 		default: System.out.println("레벨이 없습니다.");
 		}
 	}
+
 }

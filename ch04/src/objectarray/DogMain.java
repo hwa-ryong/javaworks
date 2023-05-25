@@ -8,7 +8,7 @@ public class DogMain {
 		
 		//dogArray[0] = new Dog();
 		for(int i=0; i<dogArray.length; i++) {
-			//각각의 배열 요소의 객체를 생성(기본 생성자로 생성함)
+			//각각의 배열 요소의 객체를 생성(기본생성자로 생성함)
 			dogArray[i] = new Dog();
 		}
 		

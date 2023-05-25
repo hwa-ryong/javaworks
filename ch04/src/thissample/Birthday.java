@@ -9,7 +9,7 @@ public class Birthday {
 		this.year = year;
 	}
 	
-	//this 객체의 주소를 출력
+	//this 객체의 주소를 출력할 함수
 	public void printThis() {
 		System.out.println(this);
 	}

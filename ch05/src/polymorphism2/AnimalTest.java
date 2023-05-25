@@ -27,13 +27,14 @@ class Eagle extends Animal{
 	}
 }
 
+
 public class AnimalTest {
 
 	public static void main(String[] args) {
 		//AnimalTest의 객체 생성
 		AnimalTest aTest = new AnimalTest();
 		
-		//다형성 - 부모 타입으로 객체 생성
+		//다형성 - 부모 타입으로 객체 생성(자동 형변환)
 		Animal human = new Human();
 		Animal tiger = new Tiger();
 		Animal eagle = new Eagle();
@@ -45,8 +46,7 @@ public class AnimalTest {
 	}
 	
 	//move()를 사용할 메서드 생성 - 매개변수의 다형성
-	public static void moveAnimal(Animal animal) {
+	public void moveAnimal(Animal animal) {
 		animal.move();
 	}
-
 }

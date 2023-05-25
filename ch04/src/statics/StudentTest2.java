@@ -8,11 +8,10 @@ public class StudentTest2 {
 		Student han = new Student();
 		Student kang = new Student();
 		
-		
 		System.out.println("학번: " + kim.getStudentId());
 		System.out.println("학번: " + han.getStudentId());
 		System.out.println("학번: " + kang.getStudentId());
-		
+
 	}
 
 }

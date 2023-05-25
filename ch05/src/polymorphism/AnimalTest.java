@@ -27,10 +27,11 @@ class Eagle extends Animal{
 	}
 }
 
+
 public class AnimalTest {
 
 	public static void main(String[] args) {
-		//다형성 - 부모 타입으로 객체 생성
+		//다형성 - 부모 타입으로 객체 생성(자동 형변환)
 		Animal human = new Human();
 		Animal tiger = new Tiger();
 		Animal eagle = new Eagle();

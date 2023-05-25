@@ -6,8 +6,10 @@ public class ThisTest {
 		Birthday bDay = new Birthday();
 		bDay.setYear(2023);
 		
-		System.out.println(bDay);  //bDay 주소 출력
+		//객체 주소 비교 (같음)
+		System.out.println(bDay); //bDay 주소 출력
 		bDay.printThis();
+		
 	}
 
 }

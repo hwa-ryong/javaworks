@@ -16,9 +16,9 @@ public class CarFactory {
 		return instance;
 	}
 	
+	//자동차 생산
 	public Car createCar() {
 		Car car = new Car();
 		return car;
 	}
-	
 }

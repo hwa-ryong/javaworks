@@ -1,14 +1,14 @@
 package statics;
 
 public class Student {
-	static int serialNum = 1000;
-	int studentId;    //학번
-	String name;      //이름
+	private static int serialNum = 1000;  //기준번호
+	private int studentId;    //학번
+	private String name;      //이름
 	
-	Student(){    //기본 생성자
-		serialNum++;   //serialNum을 1씩 증가시킴
-		studentId = serialNum;  // 증가된 번호를 학번에 넣는다
-	}   
+	Student(){//기본 생성자
+		serialNum++;           //serialNum을 1증가
+		studentId = serialNum; //증가된 번호를 학번에 대입
+	}    
 	
 	//get(), set()
 	int getStudentId() {
@@ -19,7 +19,6 @@ public class Student {
 		this.studentId = studentId;
 	}
 	
-	//get(), set()
 	String getName() {
 		return name;
 	}

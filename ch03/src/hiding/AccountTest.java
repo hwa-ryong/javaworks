@@ -14,7 +14,6 @@ public class AccountTest {
 		System.out.println("계좌번호: " + a2.getAno());
 		System.out.println("계좌주: " + a2.getOwner());
 		System.out.println("잔액: " + a2.getBalance());
-
 	}
 
 }

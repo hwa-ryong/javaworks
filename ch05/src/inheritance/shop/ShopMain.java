@@ -10,7 +10,7 @@ public class ShopMain {
 		shop1.sellBibimBap();
 		shop1.sellKimchiJJige();
 		
-		System.out.println("============================");
+		System.out.println("========================");
 		
 		// 부모 클래스의 타입으로 객체 생성
 		// 다형성으로 연결
@@ -22,11 +22,10 @@ public class ShopMain {
 		//형변환
 		int iNum = 10;
 		float fNum = iNum;  //자동 형변환
-		System.out.println(fNum); //10.0
+		System.out.println(fNum);  //10.0
 		
 		iNum = (int)fNum;  //강제 형변환
-		System.out.println(iNum);
-		
+		System.out.println(iNum);  //10
 	}
 
 }

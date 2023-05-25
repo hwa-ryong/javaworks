@@ -12,12 +12,11 @@ public class OneUp {
 
 	public static void main(String[] args) {
 		
-		System.out.println(oneUp()); // 1
-		System.out.println(oneUp()); // 1
+		System.out.println(oneUp());  //1
+		System.out.println(oneUp());  //1
 		
-		// x값 확인
-		//System.out.println(x); // x는 변수 할당하지 않아서 컴파일 오류
-
+		//x 값 확인
+		//System.out.println(x);  //x는 변수 할당하지 않아서 컴파일 오류
 	}
 
 }

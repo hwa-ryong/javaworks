@@ -1,13 +1,15 @@
 package objectarray;
 
 public class Book {
+	
 	String bookName;
 	String author;
 	
-	public Book(){}  //기본 생성자
+	//생성자 오버로딩 - 이름은 같은데 매개변수의 자료형이 다른 것
+	public Book(){}   //기본 생성자
 	
-	//생성자
-	public Book(String bookName, String author) {
+	//매개변수가 있는 생성자
+	public Book(String bookName, String author){
 		this.bookName = bookName;
 		this.author = author;
 	}
@@ -21,6 +23,7 @@ public class Book {
 		this.bookName = bookName;
 	}
 	
+	//책 이름을 가져오드 메서드
 	String getBookName() {
 		return bookName;
 	}
@@ -30,12 +33,8 @@ public class Book {
 		this.author = author;
 	}
 	
+	//저자를 가져오는 메서드
 	String getAuthor() {
 		return author;
 	}
-	
-	
-	
-	
-
 }

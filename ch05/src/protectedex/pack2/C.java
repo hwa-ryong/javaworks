@@ -1,8 +1,10 @@
 package protectedex.pack2;
 
 public class C {
+	
 	public void method() {
-		//A a = new A(); 다른 패키지에 있어서 접근 불가
-		
+		//패키지가 다르므로 접근 불가
+		//A a = new A(); 접근 불가
+		//a.field
 	}
 }

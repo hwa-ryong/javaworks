@@ -2,10 +2,10 @@ package arraylist.scorelist;
 
 public class Student {
 	//field 필드(멤버 변수)
-	int studentId;
-	String studentName;
-	Subject korean;   //과목 - 국어
-	Subject math;     //과목 - 수학
+	int studentId;       //학번
+	String studentName;  //이름
+	Subject korean;  //과목 - 국어
+	Subject math;    //과목 - 수학
 	
 	//생성자
 	public Student(int studentId, String studentName) {
@@ -29,7 +29,8 @@ public class Student {
 	
 	//학생 정보 출력
 	public void showInfo() {
-		System.out.printf("학생 %s의 국어 성적은 %d점이고, 수학 성적은 %d점 입니다.\n",
+		System.out.printf("학생 %s의 국어 성적은 %d점이고, 수학 성적은 %d점입니다.\n", 
 				studentName, korean.getScorePoint(), math.getScorePoint());
 	}
+	
 }

@@ -1,7 +1,6 @@
 package singleton.card;
 
 public class CardCompany {
-	
 	private static CardCompany instance;
 	
 	private CardCompany() {}
@@ -13,10 +12,9 @@ public class CardCompany {
 		return instance;
 	}
 	
+	//카드 생성
 	public Card createCard() {
 		Card card = new Card();
 		return card;
 	}
 }
-
-

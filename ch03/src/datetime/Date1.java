@@ -15,13 +15,11 @@ public class Date1 {
 		System.out.println(datetime.format(now));
 		
 		//날짜
-		SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd ");
+		SimpleDateFormat date = new SimpleDateFormat("yyyy-MM-dd");
 		System.out.println(date.format(now));
 		
 		//시간
 		SimpleDateFormat time = new SimpleDateFormat("hh:mm:ss a");
 		System.out.println(time.format(now));
-
 	}
-
 }

@@ -9,6 +9,8 @@ public class Main {
 		
 		//버스 객체 생성
 		Bus bus100 = new Bus(100);
+		
+		//지하철 객체 생성
 		Subway subwayLine2 = new Subway("2호선");
 		
 		//사람이 버스를 탄다
@@ -23,7 +25,6 @@ public class Main {
 		nara.showInfo();
 		bus100.showInfo();
 		subwayLine2.showInfo();
-		
 	}
 
 }

@@ -11,6 +11,7 @@ public class CompanyTest {
 		
 		System.out.println(com1);
 		System.out.println(com2);
+
 	}
 
 }

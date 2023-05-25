@@ -8,12 +8,13 @@ public class StudentTest {
 		System.out.println(s1);
 		
 		s1.studentID = 100;
-		s1.studentName = "화룡";
-		
+		s1.studentName = "강하늘";
 		
 		//출력
-		System.out.println(s1.studentID);
-		System.out.println(s1.studentName);
+		s1.showInfo();
+		//System.out.println(s1.studentID);
+		//System.out.println(s1.studentName);
+
 	}
 
 }
