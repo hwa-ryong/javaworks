@@ -1,6 +1,7 @@
 package db;
 
 import java.sql.Connection;
+import java.sql.JDBCType;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -18,7 +19,7 @@ public class PersonDAO {
 	
 	//자료 삽입
 	public void insertPerson(Person person) {
-		conn = JDBCUtil.getConnection();
+		conn = JDBCType.getConnection();
 		String sql = "INSERT INTO person(userid, userpw, name, age) VALUES (?, ?, ?, ?)";
 		try {
 			pstmt = conn.prepareStatement(sql);
