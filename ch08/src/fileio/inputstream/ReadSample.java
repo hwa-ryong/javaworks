@@ -7,7 +7,7 @@ import java.io.InputStream;
 public class ReadSample {
 
 	public static void main(String[] args) throws IOException {
-		InputStream is = new FileInputStream("c:/file/test1.db");
+		InputStream is = new FileInputStream("c:/file/test1.db"); // Stream : 파일에 관련한 것을 연결해주는 것
 		
 		while(true) {
 			int data = is.read();
